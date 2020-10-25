@@ -14,64 +14,65 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="container-sm login-content">
-      <div class="row justify-content-md-center">
-        <div class="col-md-auto m-4">
-          <img
-            src="../../assets/imagens/uam.png"
-            alt="logo-aum"
-            title="Logo Universidade Anhembi"
-          />
-        </div>
-      </div>
-      <div class="d-flex justify-content-center workForm">
-        <div class="col-8">
-          <div class="intro-login">
-            <p>
-              Bem-vindo ao Sistema de Atendimentos UAM. Para continuar, entre
-              com seu RA e senha.
-            </p>
+    <div class="container">
+      <div class="row mb-2 box">
+        <div class="col-md-6 align-self-center pr-5">
+          <div class="flex-md-row mb-4 h-md-250">
+            <img
+              src="../../assets/imagens/uam.png"
+              alt="logo-aum"
+              title="Logo Universidade Anhembi"
+            />
           </div>
-          <div class="login-form">
-            <form id="loginForm">
-              <div class="form-group row">
-                <label class="col-sm-2 col-form-label">Login (RA): </label>
-                <div class="col-sm-10">
-                  <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    class="form-control"
-                    spellcheck="false"
-                    value="@anhembimorumbi.edu.br"
-                    onchange="onChangeInput()"
-                  />
+        </div>
+        <div class="col-md-6 align-self-center pl-5">
+          <div class="flex-md-row mb-4 h-md-250">
+            <div class="intro-login">
+              <p>
+                Bem-vindo ao Sistema de Atendimentos UAM. Para continuar, entre
+                com seu RA e senha.
+              </p>
+            </div>
+            <div class="login-form">
+              <form id="loginForm">
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">RA: </label>
+                  <div class="col-sm-10">
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      class="form-control"
+                      spellcheck="false"
+                      value="@anhembimorumbi.edu.br"
+                      onchange="onChangeInput()"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <label class="col-sm-2 col-form-label">Senha: </label>
-                <div class="col-sm-10">
-                  <input
-                    id="password"
-                    name="password"
-                    type="password"
-                    class="form-control"
-                    placeholder="Senha"
-                    onchange="onChangeInput()"
-                  />
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">Senha: </label>
+                  <div class="col-sm-10">
+                    <input
+                      id="password"
+                      name="password"
+                      type="password"
+                      class="form-control"
+                      placeholder="Senha"
+                      onchange="onChangeInput()"
+                    />
+                  </div>
                 </div>
-                <div class="valid-feedback">Tudo certo!</div>
-              </div>
-              <div class="form-group">
-                <button
-                  id="buttonSubmit"
-                  type="submit"
-                  class="btn btn-login float-right login_btn disabed"
-                >
-                  Entrar
-                </button>
-              </div>
-            </form>
+                <div class="form-group">
+                  <button
+                    id="buttonSubmit"
+                    type="submit"
+                    class="btn btn-login float-right login_btn disabed"
+                  >
+                    Entrar
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
