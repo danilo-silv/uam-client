@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #00ac8d;
+  color: #000000;
+  font-weight: normal;
+  font-family: "Segoe UI", "Segoe", "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
+  min-width: 500px;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}

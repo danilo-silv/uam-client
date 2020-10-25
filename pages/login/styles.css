@@ -1,0 +1,35 @@
+.login-content {
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+.workForm {
+  margin-top: 20%;
+}
+
+.form-group > label {
+  font-size: 14px;
+  color: #fff;
+}
+
+.form-group > .btn-login {
+  background-color: #176859;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  transition: all 0.2ms;
+}
+
+.form-group > .btn-login:hover {
+  background-color: #358173;
+}
+
+.intro-login {
+  margin: auto 20%;
+  padding: 33px 0;
+  text-align: center;
+}
+.intro-login > p {
+  font-size: 16px;
+  color: #fff;
+}
