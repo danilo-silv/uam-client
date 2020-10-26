@@ -63,18 +63,6 @@
   font-weight: lighter;
 }
 
-.circle.academic {
+.circle {
   border: 1px solid rgba(4, 42, 99, 0.425);
-}
-
-.circle.financial {
-  border: 1px solid green;
-}
-
-.circle.doc {
-  border: 1px solid rgba(4, 69, 99, 0.425);
-}
-
-.circle.my-calls {
-  border: 1px solid rgba(112, 141, 6, 0.938);
 }
