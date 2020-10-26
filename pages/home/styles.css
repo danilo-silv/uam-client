@@ -1,0 +1,64 @@
+.link-icon {
+  text-decoration: none;
+  outline: none;
+
+  position: absolute;
+  top: -8px;
+}
+
+.link-icon .icon {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.link-icon .reply.icon {
+  font-size: 20px;
+}
+
+.container-fluid > .row {
+  background-color: teal;
+  padding: 15px 0;
+}
+
+.container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  max-width: 100px;
+  margin: 20px auto;
+  padding: 5px;
+}
+.circle > img {
+  width: calc(100px - 13px);
+  padding: 10px;
+}
+
+.circle.academic {
+  background-color: rgba(22, 124, 184, 0.719);
+}
+
+.circle.financial {
+  background-color: rgba(22, 184, 84, 0.719);
+}
+
+.circle.doc {
+  background-color: rgba(83, 174, 226, 0.89);
+}
+
+.circle.my-calls {
+  background-color: rgba(182, 202, 4, 0.836);
+}
+
+.descriotion-menu {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
