@@ -1,18 +1,15 @@
 .link-icon {
   text-decoration: none;
   outline: none;
-
-  position: absolute;
-  top: -8px;
 }
 
 .link-icon .icon {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 20px;
 }
 
-.link-icon .reply.icon {
-  font-size: 20px;
+.link-icon .user.icon {
+  font-size: 50px;
 }
 
 .container-fluid > .row {
