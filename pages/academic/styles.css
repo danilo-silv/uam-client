@@ -60,6 +60,6 @@ div.circle {
   font-weight: lighter;
 }
 
-.circle {
+div.circle {
   border: 1px solid rgba(4, 42, 99, 0.425);
 }
