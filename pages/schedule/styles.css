@@ -1,0 +1,55 @@
+.link-icon {
+  text-decoration: none;
+  outline: none;
+}
+
+.link-icon .icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.link-icon .user.icon {
+  font-size: 50px;
+}
+
+.container-fluid > .row {
+  background-color: teal;
+  padding: 15px 0;
+}
+
+.cover-container {
+  max-width: 42em;
+  padding: 8em 1em 0;
+}
+
+.schedule-text {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.form-group.row > div {
+  padding: 0;
+}
+
+.form-group.row > label.col-form-label {
+  line-height: inherit;
+}
+
+.form-group.row > label.col-form-label i {
+  color: #ffffff;
+  font-size: 18px;
+}
+.form-group > .btn-login {
+  background-color: #176859;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  transition: all 0.2ms;
+}
+
+.form-group > .btn-login:hover {
+  background-color: #358173;
+}
