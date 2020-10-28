@@ -54,7 +54,7 @@
   background-color: #358173;
 }
 
-.circle {
+div.circle {
   border-radius: 50%;
   max-width: 100px;
   margin: 20px auto;
